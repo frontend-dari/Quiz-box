@@ -423,9 +423,9 @@ margin-top: 40px;
 }
 
 .about__desk-text {
-line-height: 27px;
-width: 502px;
-margin-bottom: 43px;
+    line-height: 28px;
+    width: 474px;
+    margin-bottom: 39px;
 }
 
 .button--empty {
