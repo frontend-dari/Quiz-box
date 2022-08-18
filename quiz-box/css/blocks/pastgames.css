@@ -1,0 +1,67 @@
+.pastgames {
+    margin-bottom: 147px;
+}
+
+.section__title {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.section__title-wrap {
+    display: flex;
+}
+
+.pastgames__list {
+    margin-bottom: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pastgames__card {
+    width: 557px;
+    min-height: 390px;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.pastgames__card:last-child {
+    margin-right: 0;
+}
+
+.single-pastgames {
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.pastgames__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single-pastgames__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 25px 30px;
+    min-height: 140px;
+}
+
+.single-pastgames__date {
+    font-size: 14px;
+}
+
+.single-pastgames__title {
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 5px;
+    margin-top: 11px;
+    font-size: 24px;
+}
+
+.single-pastgames__text {
+    line-height: 21px;
+}
+

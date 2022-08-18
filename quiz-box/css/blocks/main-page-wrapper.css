@@ -1,0 +1,32 @@
+.main-page-wrapper {
+    position: relative;
+ }
+ 
+ .wrapper.main-page-wrapper:before {
+     content: '';
+     width: 100%;
+     height: 1000px;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     display: block;
+     filter: grayscale(1);
+     background: linear-gradient(0deg, #17191C 0%, rgb(255 0 15 / 0%) 24%, rgb(255 0 15 / 0%) 100%), 
+     url(../../img/bg/main-bg-1.png);
+     z-index: -10;
+ }
+ 
+ .wrapper.main-page-wrapper:after {
+     content: '';
+     width: 100%;
+     height: 1000px;
+     position: absolute;
+     left: 0px;
+     bottom: 148px;
+     display: block;
+     filter: grayscale(1);
+     background: linear-gradient(0deg, #17191C 0%, rgb(255 0 15 / 0%) 24%, rgb(255 0 15 / 0%) 100%), 
+     url(../../img/bg/main-bg-2.png);
+     z-index: -10;
+ }
+ 

@@ -1,0 +1,39 @@
+
+.button {
+    display: inline-block;
+    background: #8F00FF;
+    border-radius: 5px;
+    padding: 18px 40px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+}
+
+.button--shadow:hover {
+    background-color: #741BBA;
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, .3);
+}
+
+.button--light {
+    background: none;
+    color: #8F00FF;
+    border: 1px solid #8F00FF;
+    padding: 16px 28px;
+}
+
+.button--light:hover {
+    background: #8F00FF;
+    color: #fff;
+}
+
+.button--empty {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.button--game-page {
+    padding: 17px 38px;
+}

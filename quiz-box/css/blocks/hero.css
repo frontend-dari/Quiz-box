@@ -1,0 +1,28 @@
+
+.hero {
+    background: linear-gradient(180deg, #17191C 0%, rgba(23, 25, 28, 0) 100%);
+    margin-bottom: 189px;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 594px;
+}
+
+.hero__text-section {
+    width: 60%;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    margin-bottom: 23px;
+}
+
+.hero__subtitle {
+    font-size: 21px;
+    margin-bottom: 73px;
+}

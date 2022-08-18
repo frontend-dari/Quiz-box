@@ -1,0 +1,18 @@
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -24px;
+}
+
+.partners__item {
+   margin-right: 21px; 
+}
+
+.partners__link {
+    display: flex;
+    width: 267px;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+}
+

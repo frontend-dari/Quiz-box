@@ -1,0 +1,26 @@
+
+.menu.menu--header {
+    margin-right: 57px;
+    margin-bottom: 9px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    color: inherit;
+    margin-right: 62px;  
+}
+
+.menu__item:last-child {
+    margin-right: 0px; 
+}
+
+.menu__link {
+    font-size: 16px;
+}
+
+.menu__link:hover {
+    color: #8F00FF;
+}
