@@ -2,13 +2,23 @@
     margin-bottom: 147px;
 }
 
+.section__title-wrap {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
 .section__title {
     font-size: 36px;
     margin-bottom: 50px;
 }
 
-.section__title-wrap {
-    display: flex;
+.section__title--margin-no {
+    margin-bottom: 0;
+}
+
+.section__title-img {
+    margin-left: 10px;
 }
 
 .pastgames__list {

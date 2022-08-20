@@ -21,6 +21,10 @@
     font-size: 16px;
 }
 
+.menu__link--active {
+    color: #8F00FF;
+}
+
 .menu__link:hover {
     color: #8F00FF;
 }
