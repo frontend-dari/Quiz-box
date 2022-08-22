@@ -1,0 +1,45 @@
+.about {
+    margin-bottom: 48px;
+}
+
+.about__container {
+    position: relative;
+    padding-top: 97px;
+}
+
+.about__photo {
+    width: 489px;
+    height: 505px;
+    position: absolute;
+    z-index: -5;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+}
+
+.about__img-back {
+    position: absolute;
+    border-radius: 5px;
+}
+
+.about__desk {
+    padding: 70px 202px 66px 81px; 
+    background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+    border-radius: 5px;
+    width: 785px;
+    min-height: 455px;
+    margin-left: auto;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 37px;
+}
+
+.about__desk-text {
+    line-height: 28px;
+    width: 502px;
+    margin-bottom: 39px;
+}

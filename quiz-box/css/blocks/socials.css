@@ -1,0 +1,18 @@
+.socials {
+    display: flex;
+    align-items: center;
+    margin-right: 82px;
+    margin-bottom: 10px;
+}
+
+.social__item {
+    margin-right: 6px;
+}
+
+.social__item:last-child {
+    margin-right: 0px;
+}
+
+.social__item:hover {
+    filter: brightness(200%);
+}

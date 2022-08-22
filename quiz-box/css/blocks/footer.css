@@ -1,0 +1,30 @@
+
+.footer-container {
+    margin-top: auto;
+}
+
+.footer-container__content {
+    border-top: 0.3px solid #312f2f;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container__section {
+    margin-top: 12px;
+    height: 117px;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+
+.footer__col--right {
+    align-items: flex-end;
+}
