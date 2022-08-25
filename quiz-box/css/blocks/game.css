@@ -1,0 +1,43 @@
+.games {
+    margin-bottom: 65px;
+}
+
+.game {
+    display: flex;
+    margin-bottom: 53px;
+}
+
+.game:last-child {
+    margin-bottom: 0;
+}
+
+.last--game{
+    display: flex;
+}
+
+.game__img {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.game__img-elem {
+border-radius: 5px;
+}
+
+.game__content {
+    flex: 1;
+    padding-top: 14px;
+}
+
+.game__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 22px;
+    color: #000000;
+}
+
+.game__desk {
+    line-height: 27px;
+    margin-bottom: 38px;
+}
