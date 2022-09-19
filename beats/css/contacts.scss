@@ -1,0 +1,14 @@
+
+.contacts__phone {
+    font-size: 18px;
+    line-height: 18px;
+    font-style: normal;
+    color: #292929;
+    margin-right: 25px;
+
+    &::before {
+        content: url("../img/phone.png");
+        margin-right: 6px;
+    }
+}
+

@@ -1,0 +1,30 @@
+$red: #E01F3D;
+
+.interactive-avatar {
+    width: 70px;
+    height: 70px;
+    border: 6px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+
+    &__link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        display: block;
+    }
+
+    &__img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+&--active {
+    border-color: $red;
+}
+}
