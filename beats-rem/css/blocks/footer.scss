@@ -1,0 +1,23 @@
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ &__container {
+     margin-top: auto;
+}
+
+&-container-section {
+    height: rem(86px);
+}
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+
+&--right {
+    align-items: flex-end;
+}
+}
