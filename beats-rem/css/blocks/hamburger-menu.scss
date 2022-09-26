@@ -1,0 +1,22 @@
+@import "../variables";
+@import "../media";
+
+
+.hamburger-menu {
+    width: 26px;
+    height: 22px;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+
+    @include tablets {
+        display: inline-flex;
+    }
+}
+
+.hamburger-menu__strip {
+    display: block;
+    background: $black;
+    height: 4px;
+    border-radius: 10px;
+}

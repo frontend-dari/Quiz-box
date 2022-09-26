@@ -1,0 +1,19 @@
+.trigger {
+    display: flex; 
+
+&__icon {
+    width: rem(38px);
+    height: rem(38px);
+    margin-right: rem(11px);
+}
+
+&__text {
+    max-width: rem(114px);
+    line-height: rem(18px);
+}
+}
+
+.main-1 {
+    fill: black;
+    display: flex;
+}
