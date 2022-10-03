@@ -1,0 +1,56 @@
+@import "../media.scss";
+
+.slider-section {
+    background: #F8FAF9;
+}
+
+.products-slider {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-slider__arrow {
+    width: rem(20px);
+    height: rem(20px);
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    display: inline-block;
+    position: absolute;
+    margin-right: rem(30px);
+    top: 52%;
+
+&--left {
+    transform: rotate(-135deg);
+    left: rem(-60px);
+
+    @include tablets {
+        top: 24%;
+        left: 18%;
+    }
+
+    @include phones {
+        top: 20%;
+        left: 2%;
+    }
+
+}
+
+&--right {
+    transform: rotate(45deg);
+    right: rem(-60px);
+
+    @include tablets {
+        top: 24%;
+        right: 15%;
+    }
+
+    @include phones {
+        top: 20%;
+        right: 2%;
+    }
+
+}
+}
+
+
+
