@@ -1,0 +1,39 @@
+.section {
+    height: 100vh;
+    min-height: rem(650px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+&__title {
+    line-height: rem(52px);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: rem(60px);
+
+    &--form {
+        color: #fff;
+
+        @include tablets {
+            margin-bottom: rem(35px);  
+        } 
+    }
+}
+}
+
+.section--font-white {
+    color: #fff;
+
+     &:before {
+         content: '';
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         left: rem(0px);
+         top: rem(0px);
+         display: block;
+         background: url(../img/form-img.png);
+         z-index: -10;
+     }
+}
