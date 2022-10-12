@@ -1,0 +1,13 @@
+
+.main-features {
+    display: flex;
+    gap: rem(86px);
+    margin-bottom: rem(24px);
+}
+
+.main-feature__desc {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
