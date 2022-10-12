@@ -44,6 +44,8 @@ $('.form').submit(e => {
         },
         success: (data) => {
             content.text(data.message);
+            
+            e.target.reset();
 
             $.fancybox.open({
                 src: "#modal",
