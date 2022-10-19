@@ -3,8 +3,8 @@ const display = $(".main-content");
 const fixedMenu = $(".fixed-menu");
 const menuItems = fixedMenu.find(".fixed-menu__item");
 
-const mobileDetect = new mobileDetect(window.navigator.userAgent);
-const isMobile = MobileDetect.mobile();
+const mobileDetect = new MobileDetect(window.navigator.userAgent);
+const isMobile = mobileDetect.mobile();
 
 let inScroll = false;
 
