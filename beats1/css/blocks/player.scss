@@ -1,0 +1,123 @@
+.player-section {
+    background: #F8FAF9;
+    .player-section__container {
+     display: flex;
+     justify-content: center;
+     padding: 0 15%;
+}}
+
+iframe {
+    width: 100%;
+}
+
+.player {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    &__splash {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url(../img/player-img.jpg) center center/cover no-repeat;
+        cursor: pointer;
+    }
+
+    &__controls {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: rem(35px);
+        background: #151515;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 rem(25px);
+    }
+
+    &__playback {
+        height: rem(16px);
+        width: rem(442px);
+        position: relative;
+        margin: 0 4%;
+
+        &:before {
+        content: "";
+        height: 4px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        background: #333;
+        display: block;
+        transform: translateY(-50%);
+        }
+
+        &-button {
+            background: #E01F3D;
+            border-radius: 50%;
+            border: none;
+            width: rem(12px);
+            height: rem(12px);
+            padding: 0;
+            position: absolute;
+            top: 20%;
+            transform: translate(-50% -50%);
+            left: 0;
+        }
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+.player.active {
+ .player__splash {
+    display: none;
+ }
+}
+  
+.player__start {
+    background: transparent;
+    border: transparent;
+    border: 10px solid transparent;
+    border-left-color: #fff;
+    border-right-width: 0;
+    display: block;
+    padding: 0;
+}
+    
+.player.paused {
+    .player__start {
+       border: 0px transparent;
+    
+    &::before {
+        content: "";
+        display: inline-block;
+        width: rem(3px);
+        height: rem(17px);
+        margin-right: rem(5px);
+        background: #fff;
+    }
+
+    &::after {
+        content: "";
+        display: inline-block;
+        width: rem(3px);
+        height: rem(17px);   
+        background: #fff;
+    }
+}}
+
+.player__duration {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
